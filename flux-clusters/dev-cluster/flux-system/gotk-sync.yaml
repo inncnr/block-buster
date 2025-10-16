@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/inncnr/block-buster.git
+  url: ssh://git@github.com/inncnr/block-buster
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
